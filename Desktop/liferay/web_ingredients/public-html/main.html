@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+   <h1>Docker is cool</h1>
+   <p>Container started at <span id="start"></span></p>
+   <script>
+      const startTime = new Date().toISOString().slice(0,19).replace(/[-:T]]/g, ' ')
+      document.getElementById("start").innerText = startTime.toLocale;
+   </script>
+   <img src="enjenir.jpg" alt="">
+
+</body>
+</html> 
